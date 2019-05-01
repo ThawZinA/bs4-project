@@ -1,0 +1,164 @@
+.hero button, .content button, .blog div button {
+  background: #00bcd5;
+  border: none;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  font-family: "Dosis", sans-serif; }
+
+.hero h1, .posts h1, .content h1 {
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-family: "Dosis", sans-serif; }
+
+.posts .icon, .content .icon {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  display: block;
+  line-height: 80px;
+  text-align: center;
+  background: #00bcd5; }
+  .posts .icon i, .content .icon i {
+    font-size: 2em;
+    line-height: 80px;
+    color: #ffffff; }
+
+.content .twitter, .content .facebook, .content .dribble, .content .pinterest {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .content .twitter a, .content .facebook a, .content .dribble a, .content .pinterest a, .content .twitter i, .content .facebook i, .content .dribble i, .content .pinterest i {
+    color: white; }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
+.navigation {
+  background: #333;
+  letter-spacing: 1px; }
+  .navigation .timetable {
+    color: white;
+    font-family: "Dosis", sans-serif; }
+    .navigation .timetable i {
+      color: #00bcd5; }
+  .navigation nav {
+    background: #00bcd5; }
+    .navigation nav a h2 {
+      color: white; }
+    .navigation nav button {
+      color: #00bcd5;
+      background: white;
+      border: 1px solid transparent;
+      font-size: 1rem;
+      padding: 0.4rem 1.5rem;
+      border-radius: 5px; }
+
+.banner {
+  background: url("images/blog1.jpg");
+  min-height: 25vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.hero {
+  letter-spacing: 1px;
+  font-family: "Dosis", sans-serif; }
+  .hero h1 {
+    font-size: 4rem; }
+  .hero h2 {
+    font-size: 4.5rem;
+    font-weight: bold; }
+  .hero p {
+    font-family: "Open Sans", sans-serif; }
+  .hero .btn-2 {
+    background: #ed948e;
+    border: none;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.1rem; }
+
+.posts {
+  letter-spacing: 1px;
+  font-family: "Dosis", sans-serif; }
+  .posts h1 {
+    font-size: 3rem; }
+  .posts h2 {
+    font-size: 2rem;
+    font-weight: normal; }
+  .posts p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.9rem; }
+  .posts .testimonial .quote {
+    background: #00bcd5;
+    color: white;
+    padding: 50px 20px 20px 20px; }
+  .posts .testimonial img {
+    height: 5rem; }
+
+.content {
+  letter-spacing: 1px;
+  font-family: "Dosis", sans-serif; }
+  .content h1 {
+    font-size: 3rem; }
+  .content p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.9rem; }
+  .content i {
+    color: #00bcd5; }
+  .content span {
+    font-size: 0.9rem; }
+  .content .twitter {
+    background: #57baf7; }
+  .content .facebook {
+    background: #3b5998; }
+  .content .dribble {
+    background: #ea4c89; }
+  .content .pinterest {
+    background: #BD081C; }
+
+.blog img {
+  width: 100%;
+  height: 25rem; }
+
+.service-grid {
+  background: #f8f9fa; }
+  .service-grid .service {
+    background: white;
+    height: 100%;
+    -webkit-box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.1);
+    padding: 50px 40px; }
+    .service-grid .service p {
+      font-size: 15px; }
+
+.slogan {
+  background: #00bcd5; }
+  .slogan h2 {
+    font-size: 2.3rem;
+    letter-spacing: 2px;
+    color: white; }
+  .slogan button {
+    border: 2px solid white;
+    padding: 0.7rem 1.5rem;
+    color: white;
+    background: #00bcd5;
+    font-size: 1.1rem; }
+
+form .form-control, form .form-row {
+  font-size: 1rem;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+.footer {
+  background: #191919; }
+  .footer span {
+    color: #00bcd5; }
+  .footer input {
+    padding: 0.5rem 2rem; }
+  .footer button {
+    background: #00bcd5;
+    border: none;
+    color: white;
+    padding: 0.5rem 1.5rem; }
